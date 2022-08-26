@@ -2,3 +2,5 @@ testando o vesionamento
     fiz alguns comits 
     sera que foi de novo?
     entao fica mudando o git?
+    to meio confuso 
+    mas ok 
