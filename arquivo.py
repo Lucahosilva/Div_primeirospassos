@@ -1,4 +1,4 @@
-print(5+5);
+print(5+5)
 a = 5
 b = 7
 c = a+b
