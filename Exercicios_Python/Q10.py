@@ -1,5 +1,7 @@
-print("olá\n")
-f= float(input("Qual a temperatura em ºF? "))
-c= ((f-32)*5)/9
+#Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
 
-print("a temperatura é " , c , "ºC")
+print("olá\n")
+c = float(input("qual a Temperatura em ºC?"))
+f = 1.8*c+32
+
+print( "em Fahrenheit a temperatura é " , f )
