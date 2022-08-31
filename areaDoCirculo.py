@@ -2,6 +2,4 @@
 import math
 r = float(input("Por favor digite o raio em centimetros "))
 a = math.pi * (r*r)
-
-print( "a area do circulo é " , a)
-
+print( "a area do circulo é " , a , "cm")
