@@ -1,6 +1,6 @@
 print("Hello world!")
 
-n1 = float(input("insira a nota do primeiro bimestre "))
+n1 = float(input(" insira a nota do primeiro bimestre "))
 n2 = float(input(" insira a nota do segundo bimestre "))
 n3 = float(input(" insira a nota do terceiro bimestre "))
 n4 = float(input(" insira a nota do quarto bimestre "))
