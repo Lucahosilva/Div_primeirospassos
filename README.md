@@ -1,4 +1,9 @@
 # Div_primeirospassos
 
-meu primeiro repositório, testando comandos no Git e integração com o Github
-tambem estou testando alguns exercicios de logica em python
+<h1>Meu primeiro repositório</h1>
+
+Criado durante o treinamento da Gama academy para o projeto <Div>Magalu
+
+- Aprendendo Git, e integração com Github;
+- Fundamentos de Python 
+
