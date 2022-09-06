@@ -13,5 +13,24 @@ sind = 0.03 * salario
 fgts = 0.11 * salario
 inss = 0.1 * salario 
 
+if salario <=900 :
+    ir = 0
+elif salario <=1500 :
+    ir = salario * 0.05
+elif salario <=2500 :
+    ir = salario * 0.1
+else : ir = salario * 0.2
+
+print("=" * 100)
+print("Salario bruto: (", valorHora ,"*" , horas , ")    : " , salario )
+print("(-)IR   : " , ir)
+print(f'''(-) INSS : {inss}
+(-) sindicato  : {sind}
+
+salario liqudo  {salario - ir - inss - sind}
+
+''')
+
+
 
 
