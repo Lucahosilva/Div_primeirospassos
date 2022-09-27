@@ -4,6 +4,5 @@
 
 Criado durante o treinamento da Gama academy para o projeto Div-Magalu
 
-- Aprendendo Git, e integração com Github;
-- Fundamentos de Python 
+
 
