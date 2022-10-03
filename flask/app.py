@@ -1,5 +1,10 @@
+from urllib import request
 from flask import Flask
-app = Flask(__name__)
+from flask import render_template
+from flask import redirect, request
+import pandas as pd
+
+app = Flask(__name__,)
 
 @app.route('/')
 def index():
@@ -23,6 +28,16 @@ def listar():
 def adicionar(produto, valor):
     produtos[produto] = float(valor)
     return 'Produto adicionado'
+
+@app.route('/cadastro')
+def cadastrto():
+    argumentos = request.args.to_dict()
+    preco =argumentos['preco']
+    nome = argumentos['produto']
+    produro = argumentos[produtos]
+    return argumentos
+
+
 
 
 
